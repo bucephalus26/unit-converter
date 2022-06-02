@@ -8,7 +8,7 @@ public class CentimeterConverter extends BaseUnitConverter {
 
 
     public CentimeterConverter(){
-        this.MULTIPLIER = new BigDecimal(0.01);
+        this.MULTIPLIER = new BigDecimal(.01);
     }
 
     @Override

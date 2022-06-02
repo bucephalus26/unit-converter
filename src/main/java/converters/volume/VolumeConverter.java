@@ -15,8 +15,8 @@ public class VolumeConverter extends UnitTypeConverter {
     private static BaseUnitConverter gallonConverter = new GallonConverter();
     private static BaseUnitConverter cupConverter = new CupConverter();
     private static BaseUnitConverter fluidOunceConverter = new FluidOunceConverter();
-    private static BaseUnitConverter kilometerConverter = new KilometerConverter();
-    private static BaseUnitConverter millimeterConverter = new MillimeterConverter();
+    private static BaseUnitConverter kilometerConverter = new KiloliterConverter();
+    private static BaseUnitConverter millimeterConverter = new MilliliterConverter();
     private static BaseUnitConverter pintConverter = new PintConverter();
     private static BaseUnitConverter quartConverter = new QuartConverter();
     private static BaseUnitConverter tablespoonConverter = new TablespoonConverter();

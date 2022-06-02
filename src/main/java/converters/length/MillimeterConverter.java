@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 public class MillimeterConverter extends BaseUnitConverter {
 
     public MillimeterConverter(){
-        this.MULTIPLIER = new BigDecimal(0.001 );
+        this.MULTIPLIER = new BigDecimal(.001);
     }
 
     @Override

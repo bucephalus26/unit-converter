@@ -61,7 +61,7 @@ public abstract class UnitTypeConverter {
 
             // Else, we need to convert from our base unit to unit we are converting to
             } else {
-                BigDecimal fromBase = baseUnitConverters.get(to.getName()).convertFromBase(value);
+                BigDecimal fromBase = baseUnitConverters.get(to.getName()).convertFromBase(base);
                 return fromBase.setScale(4, RoundingMode.HALF_UP);
             }
         }
